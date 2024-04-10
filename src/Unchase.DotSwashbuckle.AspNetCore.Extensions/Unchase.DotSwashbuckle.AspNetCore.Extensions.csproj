@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Company>Unchase</Company>
+    <Authors>Unchase</Authors>
+    <Description>Some additional useful extensions for DotSwashbuckle.AspNetCore.</Description>
+    <Copyright>Copyright 2019-2022 Unchase, 2024 Havunen</Copyright>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/unchase/Unchase.DotSwashbuckle.AspNetCore.Extensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/unchase/Unchase.DotSwashbuckle.AspNetCore.Extensions</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Swagger;Swashbuckle;Filters;NSwag</PackageTags>
+    <NeutralLanguage></NeutralLanguage>
+    <LangVersion>7.3</LangVersion>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <DocumentationFile>Unchase.DotSwashbuckle.AspNetCore.Extensions.xml</DocumentationFile>
+    <Title>Unchase.DotSwashbuckle.AspNetCore.Extensions</Title>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>Unchase.DotSwashbuckle.AspNetCore.Extensions.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotSwashbuckle.AspNetCore.SwaggerGen" Version="3.*" />
+  </ItemGroup>
+
+</Project>

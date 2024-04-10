@@ -4,9 +4,9 @@
   </a>
 </p>
 
-[Unchase Swashbuckle Asp.Net Core Extensions](https://www.nuget.org/packages/Unchase.Swashbuckle.AspNetCore.Extensions/) is a library contains a bunch of extensions (filters) for [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore).
+[Unchase Swashbuckle Asp.Net Core Extensions](https://www.nuget.org/packages/Unchase.Swashbuckle.AspNetCore.Extensions/) is a library contains a bunch of extensions (filters) for [DotSwashbuckle.AspNetCore](https://github.com/Havunen/DotSwashbuckle).
 
-> The project is developed and maintained by [Nikolay Chebotov (**Unchase**)](https://github.com/unchase).
+This project is a fork of awesome [Unchase.Swashbuckle.AspNetCore.Extensions](https://github.com/unchase/Unchase.Swashbuckle.AspNetCore.Extensions) For DotSwashbuckle
 
 ## Breaking Changes
 
@@ -83,8 +83,8 @@ app.UseSwaggerUI(c =>
 - In the _ConfigureServices_ method of _Startup.cs_, inside your `AddSwaggerGen` call, enable whichever extensions (filters) you need:
 
 ```csharp
-using Unchase.Swashbuckle.AspNetCore.Extensions.Extensions;
-using Unchase.Swashbuckle.AspNetCore.Extensions.Filters;
+using Unchase.DotSwashbuckle.AspNetCore.Extensions.Extensions;
+using Unchase.DotSwashbuckle.AspNetCore.Extensions.Filters;
 ```
 
 * <a name="breaking-changes-2.3.0"></a> Since [v2.3.0](https://github.com/unchase/Unchase.Swashbuckle.AspNetCore.Extensions/releases/tag/v2.3.0):
@@ -271,7 +271,7 @@ public void ConfigureServices(IServiceCollection services)
 In the controller need to use `SwaggerTag` attribute:
 
 ```csharp
-using Swashbuckle.AspNetCore.Annotations;
+using DotSwashbuckle.AspNetCore.Annotations;
 ```
 
 ```csharp

@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>Unchase.DotSwashbuckle.AspNetCore.Extensions.Tests.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>Unchase.DotSwashbuckle.AspNetCore.Extensions.Tests.xml</DocumentationFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
+    <PackageReference Include="DotSwashbuckle.AspNetCore" Version="3.0.8" />
+    <PackageReference Include="DotSwashbuckle.AspNetCore.Annotations" Version="3.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Unchase.DotSwashbuckle.AspNetCore.Extensions\Unchase.DotSwashbuckle.AspNetCore.Extensions.csproj" />
+  </ItemGroup>
+
+</Project>

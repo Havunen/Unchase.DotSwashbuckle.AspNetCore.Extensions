@@ -23,13 +23,13 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
-src/Unchase.Swashbuckle.AspNetCore.Extensions/[Dd]ebug/
-src/Unchase.Swashbuckle.AspNetCore.Extensions/[Rr]elease/
-src/Unchase.Swashbuckle.AspNetCore.Extensions/x64/
-src/Unchase.Swashbuckle.AspNetCore.Extensions/x86/
-src/Unchase.Swashbuckle.AspNetCore.Extensions/[Bb]in/
-src/Unchase.Swashbuckle.AspNetCore.Extensions/[Oo]bj/
-src/Unchase.Swashbuckle.AspNetCore.Extensions/[Ll]og/
+src/Unchase.DotSwashbuckle.AspNetCore.Extensions/[Dd]ebug/
+src/Unchase.DotSwashbuckle.AspNetCore.Extensions/[Rr]elease/
+src/Unchase.DotSwashbuckle.AspNetCore.Extensions/x64/
+src/Unchase.DotSwashbuckle.AspNetCore.Extensions/x86/
+src/Unchase.DotSwashbuckle.AspNetCore.Extensions/[Bb]in/
+src/Unchase.DotSwashbuckle.AspNetCore.Extensions/[Oo]bj/
+src/Unchase.DotSwashbuckle.AspNetCore.Extensions/[Ll]og/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/

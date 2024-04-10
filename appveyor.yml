@@ -24,16 +24,16 @@ build_script:
 test:
   assemblies:
     only:
-      - '**\*Swashbuckle.dll'
+      - '**\*DotSwashbuckle.dll'
 artifacts:
 - path: artifacts/Unchase.*.nupkg
 deploy:
 - provider: GitHub
   tag: v$(appveyor_build_version)
-  release: Unchase.Swashbuckle.AspNetCore.Extensions-v$(appveyor_build_version)
+  release: Unchase.DotSwashbuckle.AspNetCore.Extensions-v$(appveyor_build_version)
   auth_token:
     secure: 5YjB5tKbw0Z/mnSTKxo3WLD9TWuyGpGPhaNlSTA+cFA1oORUk46i6tPuyvekHaS9
-  repository: unchase/Unchase.Swashbuckle.AspNetCore.Extensions
+  repository: unchase/Unchase.DotSwashbuckle.AspNetCore.Extensions
   artifact: /Unchase.*\.nupkg/
   on:
     branch: master                # release from master branch only
@@ -50,6 +50,6 @@ notifications:
 - provider: Email
   to:
     - spiritkola@hotmail.com
-  subject: 'Unchase.Swashbuckle.AspNetCore.Extensions - Build {{status}}'
+  subject: 'Unchase.DotSwashbuckle.AspNetCore.Extensions - Build {{status}}'
   message: "Building complete, commitId = {{commitId}}"
   on_build_status_changed: true
